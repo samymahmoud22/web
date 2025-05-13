@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>Movies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #121212;
+      color: white;
+    }
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    .movie-card {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 100%;
+    }
+    .movie-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 10px;
+    }
+    .rating {
+      color: gold;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">تقييم الأفلام</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="main.html">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link active" href="movies.html">الأفلام</a></li>
+        <li class="nav-item"><a class="nav-link" href="series.html">المسلسلات</a></li>
+        <li class="nav-item"><a class="nav-link" href="favorites.html">المفضلة</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">تسجيل الدخول</a></li>
+          <li class="nav-item"><a class="nav-link" href="signup.html">انشاء حساب</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Movie Cards Grid -->
+<div class="container py-5">
+  <h2 class="text-center mb-4">Movies</h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    <!-- بطاقة الفيلم 1 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719087_109.jpg" alt="فيلم 1">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 1</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 2 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719088_109.jpg" alt="فيلم 2">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 2</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 3 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719089_109.jpg" alt="فيلم 3">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 3</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 4 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719090_109.jpg" alt="فيلم 4">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 4</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 5 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719091_109.jpg" alt="فيلم 5">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 5</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>300x250
+    </div>
+    <!-- بطاقة الفيلم 6 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719092_109.jpg" alt="فيلم 6">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 6</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 7 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719093_109.jpg" alt="فيلم 7">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 7</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 8 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719094_109.jpg" alt="فيلم 8">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 8</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 9 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719096_109.jpg" alt="فيلم 9">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 9</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 10 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719107_109.jpg" alt="فيلم 10">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 10</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 11 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719106_109.jpg" alt="فيلم 11">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 11</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 12 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719102_109.jpg" alt="فيلم 12">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 12</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 13 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719099_109.jpg" alt="فيلم 13">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 13</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 14 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719104_109.jpg" alt="فيلم 14">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 14</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 15 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719101_109.jpg" alt="فيلم 15">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 15</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+    <!-- بطاقة الفيلم 16 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719100_109.jpg" alt="فيلم 16">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 16</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+     <!-- بطاقة الفيلم 17 -->
+    <div class="col">
+      <div class="movie-card">
+        <img src="5843916117540719105_109.jpg" alt="فيلم 16">
+        <div class="card-body">
+          <h5 class="card-title">فيلم 16</h5>
+          <p class="card-text">الوصف هنا</p>
+          <p class="rating">⭐⭐⭐⭐</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
